@@ -49,4 +49,34 @@ Fixed size and limited type support make arrays less adaptable than structures l
 
 ### Time Complexity:
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
+
+## Subarrays, Subsequences, and Subsets in Array
+
+### Subarrays
+A subarray is a contiguous part of array, i.e., Subarray is an array that is inside another array.
+
+In general, for an array of size n, there are n*(n+1)/2 non-empty subarrays.
+
+For example, Consider the array [1, 2, 3, 4], There are 10 non-empty sub-arrays. The subarrays are:
+
+(1), (2), (3), (4), (1,2), (2,3), (3,4), (1,2,3), (2,3,4), and (1,2,3,4)
+
+![alt text](images/image-7.png)
+
+### Subsequence
+A subsequence is a sequence that can be derived from another sequence by removing zero or more elements, without changing the order of the remaining elements.
+
+More generally, we can say that for a sequence of size n, we can have (2n – 1) non-empty sub-sequences in total.
+(1), (2), (3), (4), (1,2), (1,3),(1,4), (2,3), (2,4), (3,4), (1,2,3), (1,2,4), (1,3,4), (2,3,4), (1,2,3,4).
+
+![alt text](images/image-8.png)
+
+### Subset 
+If a Set has all its elements belonging to other sets, this set will be known as a subset of the other set.
+
+A Subset is denoted as “⊆“. If set A is a subset of set B, it is represented as A ⊆ B.
+
+For example, Let Set_A = {m, n, o, p, q}, Set_ B = {k, l, m, n, o, p, q, r}
+
+![alt text](images/image-9.png)
