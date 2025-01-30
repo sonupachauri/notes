@@ -1,7 +1,3 @@
-### Time Complexity:
-
-![alt text](image-6.png)
-
 ### Advantages of Array Data Structure:
 Efficient and Fast Access: Arrays allow direct and efficient access to any element in the collection with constant access time, as the data is stored in contiguous memory locations.
 
@@ -30,6 +26,7 @@ Arrays support only elements of the same type, limiting their use with complex d
 ### Lack of Flexibility:
 Fixed size and limited type support make arrays less adaptable than structures like linked lists or trees.
 
+
 ### Array Traversal 
    1. run loop from i=0 to n
    2. print array inside loop
@@ -48,3 +45,7 @@ Fixed size and limited type support make arrays less adaptable than structures l
 1. Either use arr.remove(val)
 2. or find pos, run loop from pos till n
 3. and shift every item to left due to empty deleted position use arr[i] = arr[i+1]
+
+### Time Complexity:
+
+![alt text](image-6.png)
