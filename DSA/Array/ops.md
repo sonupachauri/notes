@@ -1,3 +1,4 @@
+[`code`](ops.py)
 ### Advantages of Array Data Structure:
 Efficient and Fast Access: Arrays allow direct and efficient access to any element in the collection with constant access time, as the data is stored in contiguous memory locations.
 
