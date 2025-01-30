@@ -5,7 +5,7 @@ A data structure is not only used for organizing the data. It is also used for p
 
 ### Classification of Data Structure
 
-![alt text](image.png)
+![alt text](basicds.png)
 
 ### Linear Data Structure: 
 Data structure in which data elements are arranged sequentially or linearly, where each element is attached to its previous and next adjacent elements, is called a linear data structure. 
