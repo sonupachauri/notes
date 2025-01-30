@@ -4,6 +4,12 @@ class ArrayOps:
     def arr_traversal(arr,n):
         for i in range(n):
             print(arr[i],end=' ')
+    
+    def find_element(arr,n,key):
+        for i in range(n):
+            if arr[i] == key:
+                return i
+        return -1
 
     def arr_insertion(arr,x,pos):
             arr.insert(pos,x)
@@ -11,11 +17,7 @@ class ArrayOps:
         # arr[pos]=x
         # return arr
 
-    def find_element(arr,n,key):
-        for i in range(n):
-            if arr[i] == key:
-                return i
-        return -1
+ 
     
     def arr_remove(key):
           arr.remove(key)
