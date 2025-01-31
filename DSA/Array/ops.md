@@ -29,8 +29,8 @@ Fixed size and limited type support make arrays less adaptable than structures l
 
 
 ### Array Traversal 
-   1. run loop from i=0 to n
-   2. print array inside loop
+1. run loop from i=0 to n
+2. print array inside loop
 
 ### Array Searching 
 1. run loop from i=0 to n
